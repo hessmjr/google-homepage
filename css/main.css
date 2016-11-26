@@ -1,0 +1,95 @@
+/* main css sheet for google homepage */
+body {
+	font-family: arial, sans-serif;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+li {
+	display: inline;
+	font-size: 13px;
+}
+header nav {
+	float: right;
+	margin: 6px 21px 0 0;
+}
+header li {
+	margin-left: 16px;
+}
+header img {
+	vertical-align: middle;
+}
+a {
+	color: #404040;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+section {
+	padding-top: 184px;
+	text-align: center;
+}
+form {
+	width: 600px;
+	margin: 0 auto;
+}
+input {
+	width: 520px;
+	height: 30px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+}
+input:focus {
+  	border: 1px solid #4285f4;
+	outline: none;
+}
+.button {
+	margin-top: 20px;
+}
+.button a {
+	padding: 7px 8px 8px 8px;
+	border: 1px solid #ddd;
+	background: #f5f5f5;
+	background: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background: linear-gradient(top,#f5f5f5,#f1f1f1);
+	color: #444;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 2px;
+}
+.button a:first-child {
+	margin-right: 12px;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 0 12px 0;
+	border-top: 1px solid #dcdcdc;
+	background: #f1f1f1;
+}
+footer li {
+	color: #666;
+}
+footer .nav-left {
+	float: left;
+	margin-left: 30px;
+} 
+footer .nav-left li {
+	margin-right: 25px;
+}
+footer .nav-right {
+	float: right;
+	margin-right: 30px;
+}
+footer .nav-right li {
+	margin-left: 25px;
+}
